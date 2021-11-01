@@ -32,3 +32,12 @@ input.addEventListener('change', (evt) => {
     showResult(url);
   }
 });
+
+const cities = dataStateCity.cities.map((e) => e.name);
+const datalist = document.querySelector('#cities');
+
+cities.forEach((result) => {
+  const opt = document.createElement('option');
+  opt.value = result;
+  datalist.appendChild(opt);
+});
