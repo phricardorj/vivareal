@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VivaReal by @phricardorj</title>
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header class="siteHeader">
+      <nav class="siteHeaderContainer">
+        <a class="siteHeaderBrand" href="/"></a>
+        <ul class="headerLinks">
+          <li>
+            <a href="#"> Comprar </a>
+          </li>
+          <li>
+            <a href="#"> Alugar </a>
+          </li>
+          <li>
+            <a href="#"> Imóveis Novos </a>
+          </li>
+          <li>
+            <a href="#">Best Friday</a>
+          </li>
+          <li>
+            <a href="#"> Descobrir </a>
+          </li>
+          <li>
+            <a href="#"> Financiamento </a>
+          </li>
+          <li class="linkPublisher">
+            <a href="#"> Anunciar imóveis </a>
+            <a href="#"> Entrar </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="container">
+        <div>
+          <div class="sidebarSearch">
+            <div>
+              <p>Localização do Imóvel</p>
+              <input
+                type="text"
+                placeholder="Digite uma rua, bairro ou cidade"
+                id="searchInput"
+              />
+            </div>
+
+            <div class="sidebarSwitch">
+              <p>Localização do Imóvel</p>
+              <label class="switch">
+                <input type="checkbox" />
+                <span class="slider round"></span>
+              </label>
+
+              <span>Tour Virtual ou Vídeos</span>
+            </div>
+
+            <div>
+              <p>Tipo do Imóvel</p>
+              <select disabled>
+                <option selected>Mostrar todos</option>
+              </select>
+            </div>
+
+            <div class="inputBox">
+              <div>
+                <p>Preço Mínimo</p>
+                <input type="text" placeholder="R$" />
+              </div>
+              <div>
+                <p>Preço Máximo</p>
+                <input type="text" placeholder="R$" />
+              </div>
+            </div>
+
+            <div class="numBtnBox">
+              <p>Número de Quartos</p>
+              <div>
+                <button>1+</button>
+                <button>2+</button>
+                <button>3+</button>
+                <button>4+</button>
+                <button>5+</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="sidebaFilter">
+            <div class="inputBox">
+              <div>
+                <p>Área Mínima</p>
+                <input type="text" placeholder="m²" />
+              </div>
+              <div>
+                <p>Área Máxima</p>
+                <input type="text" placeholder="m²" />
+              </div>
+            </div>
+
+            <div class="numBtnBox">
+              <p>Número de Vagas na Garagem</p>
+              <div>
+                <button>1+</button>
+                <button>2+</button>
+                <button>3+</button>
+                <button>4+</button>
+                <button>5+</button>
+              </div>
+            </div>
+
+            <div class="numBtnBox">
+              <p>Número de Banheiros</p>
+              <div>
+                <button>1+</button>
+                <button>2+</button>
+                <button>3+</button>
+                <button>4+</button>
+                <button>5+</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="searchResult">
+          <div id="menu">
+            <div>
+              <span class="active"><button>Comprar</button></span>
+              <span><button>Alugar</button></span>
+              <span><button>Imóveis Novos</button></span>
+              <span><button>Best Friday</button></span>
+            </div>
+            <div class="line"></div>
+          </div>
+
+          <span id="result"></span>
+        </div>
+      </div>
+    </main>
+
+    <script src="assets/javascript/index.js" type="module"></script>
+  </body>
+</html>
