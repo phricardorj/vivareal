@@ -6,6 +6,7 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -39,8 +40,7 @@ li {
   overflow: hidden;
   text-indent: 100vw;
   white-space: nowrap;
-  background: url(https://cdn1.vivareal.com/p/1-9637c62/v/static/app/svg/styleguide/logo/vivareal-5bcdffca.svg)
-    no-repeat 0 44%;
+  background: url(../img/vivareal.svg) no-repeat 0 44%;
   background-size: 100%;
   bottom: 0;
   display: inline-block;
@@ -123,7 +123,7 @@ li {
   display: block;
 }
 
-/* main */
+/* Main */
 main {
   display: flex;
   justify-content: center;
@@ -141,7 +141,7 @@ main .container {
   max-width: 100%;
 }
 
-/* sidebar  */
+/* Sidebar  */
 .sidebaFilter {
   width: 288px;
   height: 320px;
@@ -179,7 +179,8 @@ main .container {
   float: right;
 }
 
-.sidebarSearch p {
+.sidebarSearch p,
+.sidebaFilter p {
   font-size: 12.5px;
   text-transform: uppercase;
   margin-bottom: 6px;
@@ -272,7 +273,7 @@ main .container {
   font-weight: lighter;
 }
 
-/* Card dos Imóveis */
+/* Property Card */
 article {
   display: flex;
 
@@ -430,6 +431,8 @@ input:checked + .slider:before {
   border-radius: 50%;
 }
 
+/* Menu Horizontal */
+
 #menu div {
   margin-bottom: 25px;
   position: relative;
@@ -473,7 +476,7 @@ input:checked + .slider:before {
   z-index: -1;
 }
 
-/* Error */
+/* Error Screen */
 .error {
   display: flex;
   align-items: center;
@@ -508,7 +511,7 @@ input:checked + .slider:before {
   width: relative;
 }
 
-/* Loading  */
+/* Search Tag  */
 .searchTag {
   border: 2px solid #1190cd;
   padding: 8px 8px 8px 15px;
