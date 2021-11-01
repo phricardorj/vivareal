@@ -2,8 +2,8 @@
 
 Clone UI e interação com API simulando a página de vendas do “vivareal.com.br” do Grupo OLX.
 
-Este foi meu trabalho de finalização do módulo Javascript Browser API durante minha formação Web Full-Stack na [Let's Code](https://letscode.com.br/) durante
-o programa Santander Coders!
+Este foi meu trabalho de finalização do módulo de Javascript Browser API, durante minha formação Web Full-Stack na [Let's Code](https://letscode.com.br/) resultado do
+programa Santander Coders!
 
 ## 🖖 Autor<br>
 
