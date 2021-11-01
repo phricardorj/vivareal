@@ -525,9 +525,9 @@ input:checked + .slider:before {
   padding: 0 10px 0px 20px;
   cursor: pointer;
   transition: 0.2s;
-  opacity: 0.8;
+  color: #1190cd;
 }
 
 .searchTag span:hover {
-  opacity: 1;
+  color: #ee6500;
 }

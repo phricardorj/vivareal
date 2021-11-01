@@ -27,6 +27,7 @@ export const showResult = async (url) => {
 
     const searchTagExit = document.createElement('span');
     searchTagExit.innerText = 'X';
+    searchTagExit.setAttribute('id', 'btnExit');
     searchTag.appendChild(searchTagExit);
 
     data['listing'].forEach((result) => {
@@ -98,6 +99,14 @@ export const showResult = async (url) => {
       const btn2 = document.createElement('button');
       btn2.innerText = 'Enviar Mensagem';
       btnGroup.appendChild(btn2);
+    });
+
+    const btnExit = document.querySelector('#btnExit');
+
+    btnExit.addEventListener('click', (evt) => {
+      const input = document.querySelector('input#searchInput');
+      input.value = '';
+      area.innerHTML = '';
     });
   } else {
     errorPage();
